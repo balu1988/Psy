@@ -1,0 +1,54 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto";
+  font-style: normal;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto";
+  font-style: normal;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Russo";
+  font-style: normal;
+  src: url("../fonts/RussoOne-Regular.ttf");
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: "Exo";
+  font-style: normal;
+  src: url("../fonts/Exo2-Regular.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Exo";
+  font-style: normal;
+  src: url("../fonts/Exo2-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;;
+  line-height: 21px;
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}

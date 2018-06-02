@@ -1,0 +1,16 @@
+@import
+  "global/variables",
+  "global/mixins",
+  "global/normalize",
+  "global/base";
+
+@import
+  "blocks/wrapper",
+  "blocks/header",
+  "blocks/projects",
+  "blocks/container",
+  "blocks/nav",
+  "blocks/features",
+  "blocks/footer",
+  "blocks/slider",
+  "blocks/logo";

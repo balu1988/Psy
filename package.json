@@ -1,0 +1,24 @@
+{
+  "name": "ASN",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ASN stroy",
+  "author": "Сардор Акрамов",
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "css-mqpacker": "^5.0.1",
+    "autoprefixer": "6.4.1",
+    "grunt-postcss": "0.8.0",
+    "grunt-browser-sync": "2.2.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-sass": "1.2.1",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "scripts": {
+    "build": "grunt build",
+    "start": "npm run build && grunt serve"
+  },
+  "engines": {
+    "node": "6.5"
+  }
+}

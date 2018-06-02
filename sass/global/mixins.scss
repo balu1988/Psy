@@ -1,0 +1,26 @@
+@mixin clearfix {
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+@mixin container() {
+  width: 320px;
+  // width: 1200px;
+  margin: 0 auto;
+
+  @media #{$tablet-widths} {
+    width: 768px;
+    // width: 1200px;
+  }
+
+  @media #{$desktop-widths} {
+    width: 1200px;
+  }
+}

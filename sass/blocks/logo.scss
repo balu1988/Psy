@@ -1,0 +1,35 @@
+.logo {
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+
+.logo__link {
+  img {
+    width: 95px;
+  }
+}
+
+@media #{$tablet-widths} {
+  .logo__link {
+    img {
+      width: 130px;
+    }
+  }
+
+  .logo {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 10px;
+    margin-right: 40px;
+  }
+}
+
+@media #{$desktop-widths} {
+  .logo__link {
+    img {
+      width: 150px;
+    }
+  }
+}
