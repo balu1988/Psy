@@ -1,5 +1,5 @@
 .features {
-  margin-top: 20px;
+  // margin-top: 20px;
 }
 
 .features__title {
@@ -14,27 +14,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
-  &::before,
-  &::after {
-    content: "";
-    flex-grow: 1;
-    width: 50px;
-    height: 1px;
-    background: #dbdbdb;
-  }
-
-  &::before {
-    margin-right: 30px;
-  }
-
-  &::after {
-    margin-left: 30px;
-  }
 }
 
 .features__title--padd {
-  margin-top: 10px;
+  // margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -79,18 +62,14 @@
 }
 
 @media #{$tablet-widths} {
+  .features {
+    margin-left: 20px;
+  }
+
   .features__title {
     font-size: 40px;
     line-height: 50px;
-    margin: 20px auto 25px;
-
-    &::before {
-      margin-right: 60px;
-    }
-
-    &::after {
-      margin-left: 60px;
-    }
+    // margin: 20px auto 25px;
   }
 
   .features__title--padd {
@@ -106,6 +85,6 @@
 
 @media #{$desktop-widths} {
   .features__title {
-    margin: 30px auto 25px;
+    // margin: 30px auto 25px;
   }
 }
