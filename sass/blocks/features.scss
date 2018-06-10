@@ -61,9 +61,23 @@
   }
 }
 
+.problem {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0,153,218,0.05);
+  margin-bottom: 5px;
+}
+
+.problem__name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
 @media #{$tablet-widths} {
   .features {
-    margin-left: 20px;
+    margin: 0 20px;
   }
 
   .features__title {
@@ -80,6 +94,17 @@
   .features__about-text {
     font-size: 16px;
     line-height: 26px;
+  }
+
+  .problem {
+    width: 45%;
+    margin-right: 5px;
+  }
+
+  .features__problems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 

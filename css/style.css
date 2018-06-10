@@ -431,7 +431,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 h1 {
   font-family: "Russo";
@@ -761,9 +762,21 @@ h1 {
     margin-top: 5px;
     margin-bottom: 5px; }
 
+.problem {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 153, 218, 0.05);
+  margin-bottom: 5px; }
+
+.problem__name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center; }
+
 @media (min-width: 768px) {
   .features {
-    margin-left: 20px; }
+    margin: 0 20px; }
   .features__title {
     font-size: 40px;
     line-height: 50px; }
@@ -772,7 +785,14 @@ h1 {
     margin-bottom: 15px; }
   .features__about-text {
     font-size: 16px;
-    line-height: 26px; } }
+    line-height: 26px; }
+  .problem {
+    width: 45%;
+    margin-right: 5px; }
+  .features__problems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; } }
 
 .footer {
   display: flex;
