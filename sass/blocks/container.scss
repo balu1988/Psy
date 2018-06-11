@@ -45,7 +45,7 @@
 .container__icons::before {
   position: absolute;
 	left: -46px;
-	top: -8px;
+	top: -6px;
 	content: '';
 	width: 32px;
 	height: 32px;
@@ -68,6 +68,16 @@
 
 .container__icons--duty::before {
 	background-image: url('../img/clock.svg');
+  background-repeat: no-repeat;
+}
+
+.container__icons--skype::before {
+	background-image: url('../img/skype.svg');
+  background-repeat: no-repeat;
+}
+
+.container__icons--vk::before {
+	background-image: url('../img/vk.svg');
   background-repeat: no-repeat;
 }
 

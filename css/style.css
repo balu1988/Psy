@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -431,8 +432,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  align-items: center; }
 
 h1 {
   font-family: "Russo";
@@ -452,7 +452,11 @@ h1 {
   font-family: "Russo";
   margin-bottom: 0px;
   margin-top: 10px;
-  font-size: 20px; }
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 20px; }
 
 .header__title {
   display: flex;
@@ -474,6 +478,10 @@ h1 {
 
 .header__contacts-mail {
   margin: 0px; }
+
+.header__right {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
 @media (min-width: 768px) {
   .header {
@@ -613,7 +621,7 @@ h1 {
 .container__icons::before {
   position: absolute;
   left: -46px;
-  top: -8px;
+  top: -6px;
   content: '';
   width: 32px;
   height: 32px; }
@@ -632,6 +640,14 @@ h1 {
 
 .container__icons--duty::before {
   background-image: url("../img/clock.svg");
+  background-repeat: no-repeat; }
+
+.container__icons--skype::before {
+  background-image: url("../img/skype.svg");
+  background-repeat: no-repeat; }
+
+.container__icons--vk::before {
+  background-image: url("../img/vk.svg");
   background-repeat: no-repeat; }
 
 .container__map {
@@ -773,6 +789,13 @@ h1 {
   font-weight: bold;
   margin: 10px 0;
   text-align: center; }
+
+.memo ul {
+  padding-left: 15px;
+  /* Отступ слева в браузере Firefox, Safari, Chrome */ }
+
+.memo__list {
+  font-weight: bold; }
 
 @media (min-width: 768px) {
   .features {

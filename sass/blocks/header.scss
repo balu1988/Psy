@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -27,7 +26,11 @@ h1 {
   font-family: "Russo";
   margin-bottom: 0px;
   margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 .header__title {
@@ -59,6 +62,8 @@ h1 {
 
 .header__right {
   // width: 80%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 @media #{$tablet-widths} {

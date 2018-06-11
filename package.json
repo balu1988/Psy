@@ -1,8 +1,8 @@
 {
-  "name": "ASN",
+  "name": "Psy",
   "version": "0.1.0",
   "private": true,
-  "description": "ASN stroy",
+  "description": "My psy site",
   "author": "Сардор Акрамов",
   "devDependencies": {
     "grunt": "1.0.1",

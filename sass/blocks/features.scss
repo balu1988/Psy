@@ -75,6 +75,19 @@
   text-align: center;
 }
 
+// .memo li {
+//   list-style-type: none;
+// }
+
+.memo ul {
+    // margin-left: 15px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 15px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.memo__list {
+  font-weight: bold;
+}
+
 @media #{$tablet-widths} {
   .features {
     margin: 0 20px;
