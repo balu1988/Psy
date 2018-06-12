@@ -1,5 +1,7 @@
 .nav {
   // padding: 15px 10px;
+  background-color: ghostwhite;
+  // background-color: aliceblue;
 }
 
 .nav__list {
@@ -8,8 +10,8 @@
   padding: 0;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 

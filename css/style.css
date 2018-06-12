@@ -406,7 +406,6 @@ body {
   font-size: 14px;
   font-weight: normal;
   line-height: 21px;
-  background-color: #f2f2f2;
   color: #000; }
 
 img {
@@ -602,6 +601,8 @@ h1 {
   padding: 10px;
   width: 100%;
   font-size: 16px; }
+  .container__contacts a {
+    color: #5181B8; }
 
 .container__contacts-left {
   padding-left: 70px; }
@@ -674,14 +675,16 @@ h1 {
     -ms-flex-wrap: nowrap;
     justify-content: space-around; } }
 
+.nav {
+  background-color: ghostwhite; }
+
 .nav__list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap; }
 
 .nav__item {
@@ -739,7 +742,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  text-decoration: underline; }
 
 .features__title--padd {
   margin-bottom: 15px; }
@@ -777,11 +781,20 @@ h1 {
   .features__about-text p {
     margin-top: 5px;
     margin-bottom: 5px; }
+  .features__about-text h4 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center; }
+
+.extrawords {
+  border-top: 1px solid black;
+  padding-top: 20px; }
 
 .problem {
   padding: 5px 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(0, 153, 218, 0.05);
+  background-color: ghostwhite;
   margin-bottom: 5px; }
 
 .problem__name {
@@ -809,6 +822,8 @@ h1 {
   .features__about-text {
     font-size: 16px;
     line-height: 26px; }
+    .features__about-text h4 {
+      text-align: left; }
   .problem {
     width: 45%;
     margin-right: 5px; }
@@ -823,7 +838,8 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: ghostwhite; }
 
 .footer p {
   margin: 0; }

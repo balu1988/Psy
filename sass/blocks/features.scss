@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  text-decoration: underline;
 }
 
 .features__title--padd {
@@ -59,12 +60,27 @@
     margin-top: 5px;
     margin-bottom: 5px;
   }
+
+  h4 {
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}
+
+.extrawords {
+  border-top: 1px solid black;
+  padding-top: 20px;
+  // margin: 20px 0;
+  // padding: 20px 0;
+  // border-bottom: 1px solid black;
 }
 
 .problem {
   padding: 5px 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: rgba(0,153,218,0.05);
+  background-color: ghostwhite;
   margin-bottom: 5px;
 }
 
@@ -107,6 +123,10 @@
   .features__about-text {
     font-size: 16px;
     line-height: 26px;
+
+    h4 {
+      text-align: left;
+    }
   }
 
   .problem {
