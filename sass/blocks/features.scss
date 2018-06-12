@@ -5,7 +5,7 @@
 .features__title {
   font-size: 25px;
   line-height: 28px;
-  font-weight: 100;
+  font-weight: bold;
   margin: 10px auto 20px;
   text-align: center;
   text-transform: uppercase;
@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  text-decoration: underline;
+  // text-decoration: underline;
 }
 
 .features__title--padd {
@@ -49,8 +49,8 @@
 }
 
 .features__about-text {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 15px;
+  // line-height: 24px;
   padding-right: 0px;
   text-align: justify;
   margin-bottom: 0;
