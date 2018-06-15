@@ -21,7 +21,7 @@
   -ms-flex-align: center;
       align-items: center;
   width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   margin-right: 0px;
   justify-content: center;
   background-color: rgb(0, 153, 218);
@@ -52,7 +52,7 @@
 
 @media #{$tablet-widths} {
   .nav {
-    padding: 5px 5px;
+    padding: 5px;
   }
 
   .nav__item {
@@ -69,9 +69,9 @@
 }
 
 @media #{$desktop-widths} {
-  .nav {
-    padding: 15px 5px;
-  }
+  // .nav {
+  //   padding: 15px 5px;
+  // }
 
   .nav__item {
     margin-right: 5px;

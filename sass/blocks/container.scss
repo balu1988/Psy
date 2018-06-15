@@ -4,16 +4,6 @@
   flex-wrap: wrap;
 }
 
-.background {
-  background-color: grey;
-  background-image: url("../img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 160px;
-  background-position: 50% 15%;
-}
-
 .container__contacts {
   display: flex;
   flex-wrap: wrap;
@@ -38,13 +28,13 @@
   position: relative;
 }
 
-.container__icons--tel {
-  margin-bottom: 30px;
-}
+// .container__icons--tel {
+//   margin-bottom: 30px;
+// }
 
-.container__icons--address {
-  margin-bottom: 30px;
-}
+// .container__icons--address {
+//   margin-bottom: 30px;
+// }
 
 .container__icons::before {
   position: absolute;

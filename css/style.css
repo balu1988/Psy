@@ -402,7 +402,7 @@ textarea {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Exo", "Arial", sans-serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 23px;
@@ -447,15 +447,23 @@ h1 {
   flex-wrap: wrap;
   width: 100%; }
 
+.header__left {
+  background-color: grey;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 60px;
+  background-position: 50% 15%; }
+
 .header__title-top {
   font-family: "Russo";
   margin-bottom: 0px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 20px; }
+  line-height: 20px;
+  color: white; }
 
 .header__title {
   display: flex;
@@ -489,7 +497,8 @@ h1 {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    min-height: 70px; }
   .header__contacts {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
@@ -505,7 +514,9 @@ h1 {
     text-align: left;
     padding: 0px 10px; }
   .header__title-top {
-    font-size: 20px; }
+    font-size: 25px;
+    width: 60%;
+    line-height: 23px; }
   h1 {
     font-size: 34px;
     line-height: 36px; }
@@ -521,79 +532,10 @@ h1 {
     font-size: 34px;
     line-height: 36px; } }
 
-.projects {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px; }
-
-.projects__block {
-  margin-bottom: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5px;
-  width: 100%;
-  background-color: rgba(0, 153, 218, 0.05); }
-
-.projects__info {
-  padding: 10px;
-  font-family: "exo"; }
-
-.projects__name {
-  text-transform: uppercase;
-  font-size: 20px;
-  line-height: 25px; }
-
-.projects__address {
-  margin-top: 5px;
-  margin-bottom: 5px; }
-
-.projects__photo {
-  text-align: center; }
-
-.projects__img-link {
-  margin-right: 10px; }
-
-.projects__image {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
-  width: 46%;
-  box-shadow: 2px 2px 12px 1px rgba(0, 0, 0, 0.2); }
-
-.projects__img-link:nth-child(2n) {
-  margin-right: 0; }
-
-.projects__img-link:last-child {
-  margin-right: 0; }
-
-.pbCaptionText {
-  padding-left: 0; }
-
-@media (min-width: 768px) {
-  .projects__image {
-    width: 32%;
-    vertical-align: middle; }
-  .projects__block {
-    margin-bottom: 30px;
-    padding: 10px;
-    padding-bottom: 20px; }
-  .projects__img-link:nth-child(2n) {
-    margin-right: 10px; } }
-
 .container {
   padding: 5px 0px 30px;
   display: flex;
   flex-wrap: wrap; }
-
-.background {
-  background-color: grey;
-  background-image: url("../img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 160px;
-  background-position: 50% 15%; }
 
 .container__contacts {
   display: flex;
@@ -612,12 +554,6 @@ h1 {
 
 .container__icons {
   position: relative; }
-
-.container__icons--tel {
-  margin-bottom: 30px; }
-
-.container__icons--address {
-  margin-bottom: 30px; }
 
 .container__icons::before {
   position: absolute;
@@ -693,7 +629,7 @@ h1 {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
   margin-right: 0px;
   justify-content: center;
   background-color: #0099da;
@@ -716,7 +652,7 @@ h1 {
 
 @media (min-width: 768px) {
   .nav {
-    padding: 5px 5px; }
+    padding: 5px; }
   .nav__item {
     width: auto;
     margin-bottom: 3px;
@@ -727,8 +663,6 @@ h1 {
     padding: 10px; } }
 
 @media (min-width: 1200px) {
-  .nav {
-    padding: 15px 5px; }
   .nav__item {
     margin-right: 5px;
     margin-bottom: 3px; }
@@ -816,7 +750,7 @@ h1 {
   .features {
     margin: 0 20px; }
   .features__title {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 50px; }
   .features__title--padd {
     margin-top: 10px;
@@ -875,25 +809,3 @@ h1 {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap; } }
-
-.logo {
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 5px;
-  margin-right: 5px; }
-
-.logo__link img {
-  width: 95px; }
-
-@media (min-width: 768px) {
-  .logo__link img {
-    width: 130px; }
-  .logo {
-    display: -ms-flexbox;
-    display: flex;
-    padding-left: 10px;
-    margin-right: 40px; } }
-
-@media (min-width: 1200px) {
-  .logo__link img {
-    width: 150px; } }

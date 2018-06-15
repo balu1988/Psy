@@ -22,15 +22,26 @@ h1 {
   width: 100%;
 }
 
+.header__left {
+  background-color: grey;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 60px;
+  background-position: 50% 15%;
+}
+
 .header__title-top {
   font-family: "Russo";
   margin-bottom: 0px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
+  // text-transform: uppercase;
+  // font-weight: bold;
   line-height: 20px;
+  color: white;
 }
 
 .header__title {
@@ -76,6 +87,7 @@ h1 {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     justify-content: flex-start;
+    min-height: 70px;
   }
 
   .header__contacts {
@@ -103,7 +115,9 @@ h1 {
   .header__title-top {
     // margin-bottom: 15px;
     // margin-top: 20px;
-    font-size: 20px;
+    font-size: 25px;
+    width: 60%;
+    line-height: 23px;
   }
 
   h1 {
