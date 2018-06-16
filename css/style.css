@@ -448,8 +448,7 @@ h1 {
   width: 100%; }
 
 .header__left {
-  background-color: grey;
-  background-image: url("../img/background.jpg");
+  background-color: #0099da;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -498,7 +497,8 @@ h1 {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     justify-content: flex-start;
-    min-height: 70px; }
+    min-height: 70px;
+    background-image: url("../img/background.jpg"); }
   .header__contacts {
     flex-wrap: nowrap;
     -webkit-flex-wrap: nowrap;
