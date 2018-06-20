@@ -50,6 +50,11 @@
   }
 }
 
+.nav__link--active {
+  background-color: #008fcc;
+  border-radius: 5px;
+}
+
 @media #{$tablet-widths} {
   .nav {
     padding: 5px;

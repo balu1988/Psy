@@ -91,9 +91,9 @@
   text-align: center;
 }
 
-// .memo li {
-//   list-style-type: none;
-// }
+.memo {
+  margin-bottom: 30px;
+}
 
 .memo ul {
     // margin-left: 15px; /* Отступ слева в браузере IE и Opera */
@@ -106,7 +106,7 @@
 
 @media #{$tablet-widths} {
   .features {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .features__title {
@@ -139,10 +139,62 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .features__main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .features__doki {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    align-items: center;
+  }
+
+  .features__less {
+    width: 54%;
+    margin-left: 20px;
+  }
+
+  .foto__left {
+    width: 40%;
+    align-self: center;
+  }
+
+  .features__paper {
+    width: 50%;
+  }
 }
 
 @media #{$desktop-widths} {
   .features__title {
     // margin: 30px auto 25px;
+  }
+
+  .features__main {
+    justify-content: space-between;
+  }
+
+  .features__doki {
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+
+  .features__less {
+    width: 63%;
+    margin-left: 20px;
+  }
+
+  .foto__left {
+    width: 32%;
+    align-self: center;
+  }
+
+  .features__paper {
+    width: 50%;
   }
 }

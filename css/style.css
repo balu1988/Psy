@@ -449,6 +449,7 @@ h1 {
 
 .header__left {
   background-color: #0099da;
+  background-image: url("../img/background1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -650,6 +651,10 @@ h1 {
   .nav__link:hover {
     color: #fff; }
 
+.nav__link--active {
+  background-color: #008fcc;
+  border-radius: 5px; }
+
 @media (min-width: 768px) {
   .nav {
     padding: 5px; }
@@ -739,6 +744,9 @@ h1 {
   margin: 10px 0;
   text-align: center; }
 
+.memo {
+  margin-bottom: 30px; }
+
 .memo ul {
   padding-left: 15px;
   /* Отступ слева в браузере Firefox, Safari, Chrome */ }
@@ -748,7 +756,7 @@ h1 {
 
 @media (min-width: 768px) {
   .features {
-    margin: 0 20px; }
+    margin: 0 10px; }
   .features__title {
     font-size: 35px;
     line-height: 50px; }
@@ -766,7 +774,41 @@ h1 {
   .features__problems {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; } }
+    justify-content: center; }
+  .features__main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
+  .features__doki {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    align-items: center; }
+  .features__less {
+    width: 54%;
+    margin-left: 20px; }
+  .foto__left {
+    width: 40%;
+    align-self: center; }
+  .features__paper {
+    width: 50%; } }
+
+@media (min-width: 1200px) {
+  .features__main {
+    justify-content: space-between; }
+  .features__doki {
+    justify-content: space-between;
+    margin: 20px 0; }
+  .features__less {
+    width: 63%;
+    margin-left: 20px; }
+  .foto__left {
+    width: 32%;
+    align-self: center; }
+  .features__paper {
+    width: 50%; } }
 
 .footer {
   display: flex;
