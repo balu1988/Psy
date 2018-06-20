@@ -754,6 +754,13 @@ h1 {
 .memo__list {
   font-weight: bold; }
 
+.responds {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  justify-content: space-around;
+  align-items: center; }
+
 @media (min-width: 768px) {
   .features {
     margin: 0 10px; }
@@ -793,7 +800,13 @@ h1 {
     width: 40%;
     align-self: center; }
   .features__paper {
-    width: 50%; } }
+    width: 50%; }
+  .responds__block {
+    width: 31%;
+    margin: 5px; }
+  .responds__block__big {
+    width: 48%;
+    margin: 5px; } }
 
 @media (min-width: 1200px) {
   .features__main {
@@ -808,7 +821,9 @@ h1 {
     width: 32%;
     align-self: center; }
   .features__paper {
-    width: 50%; } }
+    width: 50%; }
+  .responds__block {
+    width: 23%; } }
 
 .footer {
   display: flex;

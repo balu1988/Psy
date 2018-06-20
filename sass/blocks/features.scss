@@ -104,6 +104,14 @@
   font-weight: bold;
 }
 
+.responds {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media #{$tablet-widths} {
   .features {
     margin: 0 10px;
@@ -168,6 +176,16 @@
   .features__paper {
     width: 50%;
   }
+
+  .responds__block {
+    width: 31%;
+    margin: 5px;
+  }
+
+  .responds__block__big {
+    width: 48%;
+    margin: 5px;
+  }
 }
 
 @media #{$desktop-widths} {
@@ -196,5 +214,9 @@
 
   .features__paper {
     width: 50%;
+  }
+
+  .responds__block {
+    width: 23%;
   }
 }
