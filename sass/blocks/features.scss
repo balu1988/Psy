@@ -2,6 +2,11 @@
   // margin-top: 20px;
 }
 
+.hiddenh1 {
+  visibility: hidden;
+  position: absolute;
+}
+
 .features__title {
   font-size: 25px;
   line-height: 28px;
@@ -89,6 +94,11 @@
   font-weight: bold;
   margin: 10px 0;
   text-align: center;
+}
+
+.problem__name__withborder {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
 }
 
 .memo {

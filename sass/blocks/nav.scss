@@ -67,6 +67,10 @@
     margin-right: 10px;
   }
 
+  .nav__item__last {
+    margin-right: 0px;
+  }
+
   .nav__link {
     font-size: 20px;
     padding: 10px;
@@ -74,17 +78,21 @@
 }
 
 @media #{$desktop-widths} {
-  // .nav {
-  //   padding: 15px 5px;
-  // }
+  .nav {
+    padding: 5px 0;
+  }
 
   .nav__item {
     margin-right: 5px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
+  }
+
+  .nav__item__last {
+    margin-right: 0px;
   }
 
   .nav__list {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
 }
