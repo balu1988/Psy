@@ -729,8 +729,7 @@ h1 {
   font-size: 15px;
   padding-right: 0px;
   text-align: justify;
-  margin-bottom: 0;
-  padding: 0 10px; }
+  margin-bottom: 0; }
   .features__about-text p {
     margin-top: 5px;
     margin-bottom: 5px; }
@@ -805,18 +804,18 @@ h1 {
     margin-bottom: 20px; }
   .features__doki {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 20px 0;
     align-items: center; }
   .features__less {
-    width: 54%;
-    margin-left: 20px; }
+    width: 55%;
+    margin-left: 10px; }
   .foto__left {
-    width: 40%;
+    width: 43%;
     align-self: center; }
   .features__paper {
-    width: 50%; }
+    width: 45%; }
   .responds__block {
     width: 31%;
     margin: 5px; }
@@ -828,16 +827,15 @@ h1 {
   .features__main {
     justify-content: space-between; }
   .features__doki {
-    justify-content: space-between;
     margin: 20px 0; }
   .features__less {
     width: 63%;
-    margin-left: 20px; }
+    margin-left: 10px; }
   .foto__left {
-    width: 32%;
+    width: 34%;
     align-self: center; }
   .features__paper {
-    width: 50%; }
+    width: 40%; }
   .responds__block {
     width: 23%; } }
 
