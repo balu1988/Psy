@@ -690,12 +690,14 @@ h1 {
   font-weight: bold;
   margin: 10px auto 20px;
   text-align: center;
-  text-transform: uppercase;
   font-family: "Exo";
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%; }
+
+h1 {
+  text-transform: none; }
 
 .features__title--padd {
   margin-bottom: 15px; }
