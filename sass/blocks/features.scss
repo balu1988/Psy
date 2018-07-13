@@ -2,6 +2,16 @@
   // margin-top: 20px;
 }
 
+.foto__left {
+  background-color: #0099da;
+  background-image: url("../img/foto.jpg");
+  background-size: cover;
+  min-height: 400px;
+  background-position: 50% 75%;
+  // background-repeat: no-repeat;
+  // width: 100%;
+}
+
 .hiddenh1 {
   visibility: hidden;
   position: absolute;
@@ -127,6 +137,17 @@ h1 {
 }
 
 @media #{$tablet-widths} {
+  .foto__left {
+    background-color: #0099da;
+    background-image: url("../img/fotoplanw.jpg");
+    background-size: cover;
+    min-height: 484px;
+    // background-position: 50% 15%;
+    // background-repeat: no-repeat;
+    // width: 100%;
+  }
+
+
   .features {
     margin: 0 10px;
   }
@@ -203,6 +224,16 @@ h1 {
 }
 
 @media #{$desktop-widths} {
+  .foto__left {
+    background-color: #0099da;
+    background-image: url("../img/foto.jpg");
+    background-size: cover;
+    min-height: 495px;
+    background-position: 50% 75%;
+    // background-repeat: no-repeat;
+    // width: 100%;
+  }
+
   .features__title {
     // margin: 30px auto 25px;
   }

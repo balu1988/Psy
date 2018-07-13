@@ -680,6 +680,13 @@ h1 {
   .nav__list {
     justify-content: space-between; } }
 
+.foto__left {
+  background-color: #0099da;
+  background-image: url("../img/foto.jpg");
+  background-size: cover;
+  min-height: 400px;
+  background-position: 50% 75%; }
+
 .hiddenh1 {
   visibility: hidden;
   position: absolute; }
@@ -777,6 +784,11 @@ h1 {
   align-items: center; }
 
 @media (min-width: 768px) {
+  .foto__left {
+    background-color: #0099da;
+    background-image: url("../img/fotoplanw.jpg");
+    background-size: cover;
+    min-height: 484px; }
   .features {
     margin: 0 10px; }
   .features__title {
@@ -824,6 +836,12 @@ h1 {
     margin: 5px; } }
 
 @media (min-width: 1200px) {
+  .foto__left {
+    background-color: #0099da;
+    background-image: url("../img/foto.jpg");
+    background-size: cover;
+    min-height: 495px;
+    background-position: 50% 75%; }
   .features__main {
     justify-content: space-between; }
   .features__doki {
