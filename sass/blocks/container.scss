@@ -75,6 +75,11 @@
   background-repeat: no-repeat;
 }
 
+.container__icons--fb::before {
+	background-image: url('../img/fb.svg');
+  background-repeat: no-repeat;
+}
+
 .container__map {
   width: 100%;
   min-height: 400px;
