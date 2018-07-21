@@ -684,8 +684,15 @@ h1 {
   .nav__list {
     justify-content: space-between; } }
 
+.mayak {
+  background-color: ghostwhite;
+  background-image: url("../img/mayak.jpg");
+  width: 100%;
+  min-height: 300px;
+  background-position: 17% 5%; }
+
 .foto__left {
-  background-color: #0099da;
+  background-color: ghostwhite;
   background-image: url("../img/foto.jpg");
   background-size: cover;
   min-height: 400px;
@@ -788,8 +795,14 @@ h1 {
   align-items: center; }
 
 @media (min-width: 768px) {
+  .mayak {
+    background-color: ghostwhite;
+    background-image: url("../img/mayak.jpg");
+    width: 100%;
+    min-height: 500px;
+    background-position: 27% 5%; }
   .foto__left {
-    background-color: #0099da;
+    background-color: ghostwhite;
     background-image: url("../img/fotoplanw.jpg");
     background-size: cover;
     min-height: 484px; }
@@ -840,8 +853,13 @@ h1 {
     margin: 5px; } }
 
 @media (min-width: 1200px) {
+  .mayak {
+    background-color: ghostwhite;
+    background-image: url("../img/mayak.jpg");
+    width: 100%;
+    min-height: 500px;
+    background-position: 95% 5%; }
   .foto__left {
-    background-color: #0099da;
     background-image: url("../img/foto.jpg");
     background-size: cover;
     min-height: 495px;
