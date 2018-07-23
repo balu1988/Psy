@@ -534,7 +534,7 @@ h1 {
     line-height: 36px; } }
 
 .container {
-  padding: 5px 0px 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-wrap: wrap; }
 
@@ -645,6 +645,9 @@ h1 {
   .nav__item a {
     color: #fff; }
 
+.nav__item__last {
+  margin-bottom: 0px; }
+
 .nav__link {
   display: block;
   font-size: 18px;
@@ -661,7 +664,8 @@ h1 {
 
 @media (min-width: 768px) {
   .nav {
-    padding: 5px; }
+    padding: 5px;
+    padding-bottom: 2px; }
   .nav__item {
     width: auto;
     margin-bottom: 3px;
@@ -686,10 +690,10 @@ h1 {
 
 .mayak {
   background-color: ghostwhite;
-  background-image: url("../img/mayak.jpg");
+  background-image: url("../img/mayak2.jpg");
   width: 100%;
   min-height: 300px;
-  background-position: 17% 5%; }
+  background-position: 17% 15%; }
 
 .foto__left {
   background-color: ghostwhite;
@@ -799,7 +803,7 @@ h1 {
     background-color: ghostwhite;
     background-image: url("../img/mayak.jpg");
     width: 100%;
-    min-height: 500px;
+    min-height: 480px;
     background-position: 27% 5%; }
   .foto__left {
     background-color: ghostwhite;
@@ -857,7 +861,7 @@ h1 {
     background-color: ghostwhite;
     background-image: url("../img/mayak.jpg");
     width: 100%;
-    min-height: 500px;
+    min-height: 480px;
     background-position: 95% 5%; }
   .foto__left {
     background-image: url("../img/foto.jpg");
