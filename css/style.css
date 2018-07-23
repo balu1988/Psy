@@ -692,8 +692,19 @@ h1 {
   background-color: ghostwhite;
   background-image: url("../img/mayak2.jpg");
   width: 100%;
-  min-height: 300px;
-  background-position: 17% 15%; }
+  min-height: 321px;
+  background-position: 51% 12%;
+  background-size: 303%;
+  position: relative; }
+
+.quote {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold; }
 
 .foto__left {
   background-color: ghostwhite;
@@ -804,7 +815,8 @@ h1 {
     background-image: url("../img/mayak.jpg");
     width: 100%;
     min-height: 480px;
-    background-position: 27% 5%; }
+    background-position: 27% 5%;
+    background-size: 158%; }
   .foto__left {
     background-color: ghostwhite;
     background-image: url("../img/fotoplanw.jpg");
@@ -861,8 +873,9 @@ h1 {
     background-color: ghostwhite;
     background-image: url("../img/mayak.jpg");
     width: 100%;
-    min-height: 480px;
-    background-position: 95% 5%; }
+    min-height: 506px;
+    background-position: 95% 5%;
+    background-size: auto; }
   .foto__left {
     background-image: url("../img/foto.jpg");
     background-size: cover;
