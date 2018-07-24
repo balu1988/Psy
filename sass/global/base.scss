@@ -14,6 +14,13 @@
 
 @font-face {
   font-weight: normal;
+  font-family: "ElMessiri";
+  font-style: normal;
+  src: url("../fonts/ElMessiri.ttf");
+}
+
+@font-face {
+  font-weight: normal;
   font-family: "Russo";
   font-style: normal;
   src: url("../fonts/RussoOne-Regular.ttf");
@@ -41,7 +48,6 @@ body {
   font-weight: normal;;
   line-height: 23px;
   color: #000;
-  // background-image: url("../img/back3.png");
 }
 
 img {

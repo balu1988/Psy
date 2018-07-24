@@ -383,6 +383,12 @@ textarea {
 
 @font-face {
   font-weight: normal;
+  font-family: "ElMessiri";
+  font-style: normal;
+  src: url("../fonts/ElMessiri.ttf"); }
+
+@font-face {
+  font-weight: normal;
   font-family: "Russo";
   font-style: normal;
   src: url("../fonts/RussoOne-Regular.ttf"); }
@@ -688,6 +694,9 @@ h1 {
   .nav__list {
     justify-content: space-between; } }
 
+.quote {
+  display: none; }
+
 .mayak {
   background-color: ghostwhite;
   background-image: url("../img/mayak2.jpg");
@@ -696,15 +705,6 @@ h1 {
   background-position: 51% 12%;
   background-size: 303%;
   position: relative; }
-
-.quote {
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  color: white;
-  font-style: italic;
-  text-align: center;
-  font-weight: bold; }
 
 .foto__left {
   background-color: ghostwhite;
@@ -810,6 +810,17 @@ h1 {
   align-items: center; }
 
 @media (min-width: 768px) {
+  .quote {
+    display: block;
+    font-family: "ElMessiri", "Arial", sans-serif;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold; }
   .mayak {
     background-color: ghostwhite;
     background-image: url("../img/mayak.jpg");
@@ -869,13 +880,19 @@ h1 {
     margin: 5px; } }
 
 @media (min-width: 1200px) {
+  .quote {
+    right: 30px;
+    bottom: 40px;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center; }
   .mayak {
     background-color: ghostwhite;
     background-image: url("../img/mayak.jpg");
     width: 100%;
-    min-height: 506px;
-    background-position: 95% 5%;
-    background-size: auto; }
+    min-height: 675px;
+    background-position: 44% 0%;
+    background-size: 116%; }
   .foto__left {
     background-image: url("../img/foto.jpg");
     background-size: cover;

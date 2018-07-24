@@ -1,11 +1,6 @@
-// .mayak {
-//   background-color: ghostwhite;
-//   background-image: url("../img/mayak4.jpg");
-//   background-size: cover;
-//   width: 100%;
-//   min-height: 335px;
-//   background-position: 50% 43%;
-// }
+.quote {
+  display: none;
+}
 
 .mayak {
   background-color: ghostwhite;
@@ -16,16 +11,6 @@
   background-position: 51% 12%;
   background-size: 303%;
   position: relative;
-}
-
-.quote {
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  color: white;
-  font-style: italic;
-  text-align: center;
-  font-weight: bold;
 }
 
 .foto__left {
@@ -146,7 +131,6 @@ h1 {
 }
 
 .memo ul {
-    // margin-left: 15px; /* Отступ слева в браузере IE и Opera */
     padding-left: 15px; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
@@ -163,6 +147,19 @@ h1 {
 }
 
 @media #{$tablet-widths} {
+  .quote {
+    display: block;
+    font-family: "ElMessiri", "Arial", sans-serif;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
+
   .mayak {
     background-color: ghostwhite;
     background-image: url("../img/mayak.jpg");
@@ -260,14 +257,30 @@ h1 {
 }
 
 @media #{$desktop-widths} {
+  .quote {
+    right: 30px;
+    bottom: 40px;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+  }
+
   .mayak {
     background-color: ghostwhite;
     background-image: url("../img/mayak.jpg");
     width: 100%;
-    min-height: 506px;
-    background-position: 95% 5%;
-    background-size: auto;
+    min-height: 675px;
+    background-position: 44% 0%;
+    background-size: 116%;
   }
+
+  // .mayak {
+  //   background-color: ghostwhite;
+  //   background-image: url("../img/mayak.jpg");
+  //   width: 100%;
+  //   min-height: 675px;
+  //   background-size: cover;
+  // }
 
 
   .foto__left {
