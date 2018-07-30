@@ -383,9 +383,9 @@ textarea {
 
 @font-face {
   font-weight: normal;
-  font-family: "ElMessiri";
+  font-family: "ElMessiri-Bold";
   font-style: normal;
-  src: url("../fonts/ElMessiri.ttf"); }
+  src: url("../fonts/ElMessiri-Bold.ttf"); }
 
 @font-face {
   font-weight: normal;
@@ -812,7 +812,7 @@ h1 {
 @media (min-width: 768px) {
   .quote {
     display: block;
-    font-family: "ElMessiri", "Arial", sans-serif;
+    font-family: "ElMessiri-Bold", "Arial", sans-serif;
     position: absolute;
     right: 20px;
     bottom: 20px;
